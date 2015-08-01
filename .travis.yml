@@ -1,6 +1,8 @@
 
 language: java
 
+before-script: cd Release
+
 deploy:
   edge: true
   provider: cloudfoundry
