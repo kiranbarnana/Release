@@ -2,6 +2,7 @@
 language: java
 
 before-script: cd Release
+script: ant TecyPlayes
 
 deploy:
   edge: true
