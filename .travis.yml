@@ -1,0 +1,11 @@
+
+language: cpp
+
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: hydsri.kiran@gmail.com
+  password: asdf1234
+  api: https://api.run.pivotal.io
+  organization: VERIZON
+  space: staging
